@@ -9,11 +9,11 @@ Dado este proyecto en NodeJS, crea su Dockerfile sabiendo que nos han pedido com
 <br>
 ---
 
-![Screenshot](./img/reto1_2.png)
+![Screenshot](./img/reto1_1.png)
 <br>
 ---
 
-![Screenshot](./img/reto1_3.png)
+![Screenshot](./img/reto1_2.png)
 <br>
 ---
 
