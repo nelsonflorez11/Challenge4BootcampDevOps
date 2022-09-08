@@ -1,3 +1,4 @@
+
 name: pipeline
 
 on:
@@ -6,12 +7,13 @@ on:
   pull_request:
     branches: [ "master" ]
 
-jobs:
+jobs:        
   init:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [16.x]
+
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
