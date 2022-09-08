@@ -41,4 +41,4 @@ Se debe crear una aplicación en Heroku y desplegarla allí usando github action
 
 ### Resultado:
 
-![desafio 1](./assets/1.png)
+![desafio 1](./img/1.png)
