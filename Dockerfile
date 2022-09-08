@@ -6,7 +6,7 @@ RUN sh install.sh
 
 WORKDIR /app
 
-COPY app /app/
+COPY package* index.js /app/
 
 RUN npm install
 
