@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM --platform=linux/amd64 ubuntu:18.04
 
 COPY install.sh .
 
@@ -9,9 +9,6 @@ WORKDIR /app
 COPY package* index.js /app/
 
 RUN npm install
-
-EXPOSE 8888
-
 
 CMD ["npm","start"]
 

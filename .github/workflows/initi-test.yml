@@ -47,5 +47,16 @@ jobs:
           push: true
           tags: ${{env.REGISTRY}}/${{env.IMAGE_NAME}}:latest
 
+    deploy:
+    runs-on: ubuntu-latest
+    needs: docker
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "bootcamp-devops-ci-cd"
+          heroku_email: "nelsonflorez11@gmail.com"
+
 
 
