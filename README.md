@@ -51,6 +51,10 @@ Se debe crear una aplicación en Heroku y desplegarla allí usando github action
 
 ## Solucion
 
+![Screenshot](./img/reto5_2.png)
+<br>
+---
+
 ![Screenshot](./img/reto5_0.png)
 <br>
 ---
