@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Este script construye la imagen levanta el contenedor (localmente) y la sube a docker hub
 #correr exports desde la misma shell que ejecute el script, remplazando XXXXXXXX como corresponda 
 
 #APP
@@ -19,7 +20,7 @@ do
             echo "########################"
             echo "Crea imagenes Docker"
             echo "########################"
-            cd src
+            cd app-local
             docker build -t nelsonflorez11/nodebootcamp:1.0 .
             docker run -d --name web -p 8888:8888 nelsonflorez11/nodebootcamp:1.0
             docker login -u $user_docker -p $passwd_docker docker.io               
