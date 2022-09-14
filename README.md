@@ -35,10 +35,28 @@ Sube la imagen de Docker a DockerHub.
 
 Automatiza el proceso de creación de la imagen de Docker y su subida a Docker Hub después de cada cambio en el repositorio utitlizando Github Actions.
 
+## Solucion
+
+![Screenshot](./img/reto3_0.png)
+<br>
+---
+
+![Screenshot](./img/reto3_1.png)
+<br>
+---
+
 ## Práctica 4
 
 Se debe crear una aplicación en Heroku y desplegarla allí usando github actions.
 
-### Resultado:
+## Solucion
 
-![desafio 1](./img/1.png)
+![Screenshot](./img/reto5_0.png)
+<br>
+---
+
+![Screenshot](./img/reto5_1.png)
+<br>
+---
+
+
